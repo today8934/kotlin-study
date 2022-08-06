@@ -1,5 +1,7 @@
 package main.com.lec01;
 
+import main.com.etc.Person;
+
 import java.util.ArrayList;
 import java.util.List;
 

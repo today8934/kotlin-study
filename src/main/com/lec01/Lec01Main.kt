@@ -1,5 +1,7 @@
 package main.com.lec01
 
+import main.com.etc.Person
+
 fun main() {
     var number1: Long = 10L
     val number2 = 10L
