@@ -1,6 +1,6 @@
 package main.com.lec03
 
-import main.com.etc.Person
+import main.com.etc.JavaPerson
 
 fun main() {
     val number1 = 3
@@ -9,14 +9,14 @@ fun main() {
     val number3: Int? = 3
     val number4: Long = number3?.toLong() ?: 0
 
-    printAgeIfPerson2(Person("류욱상"))
-    printAgeIfPerson2(Person("류욱상", 100))
+    printAgeIfPerson2(JavaPerson("류욱상"))
+    printAgeIfPerson2(JavaPerson("류욱상", 100))
 
-    val person = Person("류욱상", 100)
-    val log = "사람의 이름은 ${person.name}이고 나이는 ${person.age}세 입니다"
+    val javaPerson = JavaPerson("류욱상", 100)
+    val log = "사람의 이름은 ${javaPerson.name}이고 나이는 ${javaPerson.age}세 입니다"
 
-    val name = person.name
-    val age = person.age
+    val name = javaPerson.name
+    val age = javaPerson.age
     val log2 = "사람의 이름은 $name 이고 나이는 $age 입니다."
 
     println(log)
@@ -35,15 +35,15 @@ fun main() {
 }
 
 fun printAgeIfPerson(obj: Any) {
-    if (obj is Person) {
-        val person = obj as Person
-        println(person.age)
+    if (obj is JavaPerson) {
+        val javaPerson = obj as JavaPerson
+        println(javaPerson.age)
     }
 }
 
 fun printAgeIfPerson2(obj: Any?) {
-    val person = obj as? Person
-    println(person?.age)
+    val javaPerson = obj as? JavaPerson
+    println(javaPerson?.age)
 }
 
 fun fail(message: String): Nothing {

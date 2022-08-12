@@ -1,6 +1,6 @@
 package main.com.lec01
 
-import main.com.etc.Person
+import main.com.etc.JavaPerson
 
 fun main() {
     var number1: Long = 10L
@@ -12,5 +12,5 @@ fun main() {
     var number5: Long? = 1000L
     number5 = null
 
-    var person = Person("류욱상")
+    var javaPerson = JavaPerson("류욱상")
 }

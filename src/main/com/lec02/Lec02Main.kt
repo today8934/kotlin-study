@@ -1,6 +1,6 @@
 package main.com.lec02
 
-import main.com.etc.Person
+import main.com.etc.JavaPerson
 import java.lang.IllegalArgumentException
 
 fun main() {
@@ -11,8 +11,8 @@ fun main() {
     val str2: String? = "ABC"
     str?.length ?: 0
 
-    val person = Person("류욱상")
-    startsWithA5(person.name)
+    val javaPerson = JavaPerson("류욱상")
+    startsWithA5(javaPerson.name)
 }
 
 fun startsWithA(str: String): Boolean {
