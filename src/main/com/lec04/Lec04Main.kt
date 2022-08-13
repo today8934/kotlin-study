@@ -1,8 +1,7 @@
 package main.com.lec04
 
-import main.com.etc.JavaMoney
-import main.com.etc.Money
-import java.util.Arrays
+import main.com.etc.java.JavaMoney
+import main.com.etc.kotlin.Money
 
 fun main() {
     val javaMoney = JavaMoney(2000L)

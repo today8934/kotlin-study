@@ -1,6 +1,6 @@
 package main.com.lec04;
 
-import main.com.etc.JavaMoney;
+import main.com.etc.java.JavaMoney;
 
 public class Lec04Main {
 

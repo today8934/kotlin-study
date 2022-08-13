@@ -1,4 +1,4 @@
-package main.com.etc
+package main.com.etc.kotlin
 
 class Person(name: String, var age: Int) {
 

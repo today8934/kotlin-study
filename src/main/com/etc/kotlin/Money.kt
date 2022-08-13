@@ -1,4 +1,4 @@
-package main.com.etc
+package main.com.etc.kotlin
 
 class Money(private val amount: Long) {
 

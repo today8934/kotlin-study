@@ -1,7 +1,7 @@
 package main.com.lec09
 
-import main.com.etc.JavaPerson
-import main.com.etc.Person
+import main.com.etc.java.JavaPerson
+import main.com.etc.kotlin.Person
 
 fun main() {
     val person = Person("류욱상", 100)

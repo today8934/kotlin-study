@@ -1,6 +1,6 @@
 package main.com.lec02
 
-import main.com.etc.JavaPerson
+import main.com.etc.java.JavaPerson
 import java.lang.IllegalArgumentException
 
 fun main() {

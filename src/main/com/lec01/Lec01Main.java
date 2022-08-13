@@ -1,6 +1,6 @@
 package main.com.lec01;
 
-import main.com.etc.JavaPerson;
+import main.com.etc.java.JavaPerson;
 
 import java.util.ArrayList;
 import java.util.List;

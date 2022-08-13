@@ -1,4 +1,4 @@
-package main.com.etc;
+package main.com.etc.java;
 
 import org.jetbrains.annotations.NotNull;
 

@@ -1,6 +1,6 @@
 package main.com.lec03
 
-import main.com.etc.JavaPerson
+import main.com.etc.java.JavaPerson
 
 fun main() {
     val number1 = 3
