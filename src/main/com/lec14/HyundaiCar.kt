@@ -3,8 +3,7 @@ package main.com.lec14
 sealed class HyundaiCar(
     val name: String,
     val price: Long
-) {
-}
+)
 
 class Avante: HyundaiCar("아반떼", 1000L)
 
